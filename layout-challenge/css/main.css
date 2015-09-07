@@ -6,17 +6,17 @@ html {
     box-sizing: inherit;
 }
 
-.header, .footer {
+header, footer {
     background: #ccc;
     color: #000;
-    height: 150px;
+    height: calc(20vh - 10px);
     margin: 10px;
     padding: 5px;
 }
 
 .middle {
     margin: 10px;
-    height: 200px;
+    height: calc(60vh - 20px);
     text-align: center;
 }
 
@@ -27,13 +27,13 @@ html {
 }
 
 .column1 {
-    width: 70%;
+    width: 66.16%;
     background: #ffcfcf;
     float: left;
 }
 
 .column2 {
-    width: 29%;
+    width: 32.83%;
     background: #bfe6bf;
     float: right;
 }
