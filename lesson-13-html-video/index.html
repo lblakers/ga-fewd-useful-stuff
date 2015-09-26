@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 Video</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A simple introduction to HTML5 Video">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video autoplay id="bkng" poster="img/slaps-in-slow-motion.jpg" loop>
+       <!-- If we had a webm format we could put that in above the mp4 -->
+        <source src="video/slaps-in-slow-motion-low-res.mp4" type="video/mp4">
+    </video>
+    <h1>JavaScript</h1>
+    <h2>What a slap in the face?</h2>
+    <div id="controls">
+        <p id="play" class="control_buttons">&#9654;</p>
+        <p id="stop" class="control_buttons">&#9724;</p>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
