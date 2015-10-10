@@ -1,0 +1,11 @@
+#icons {
+    display: inline-block;
+}
+
+#icons span {
+    cursor: pointer;
+}
+
+#save_icon, #cancel_icon {
+    display: none;
+}
